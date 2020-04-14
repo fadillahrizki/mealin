@@ -14,8 +14,8 @@ class Meals extends HTMLElement{
             }else{
                 mealElement.setAttribute("class","carousel-item meal")
             }
-            mealElement.meal = meal;
-            this.appendChild(mealElement);
+            mealElement.meal = meal
+            this.appendChild(mealElement)
         })
     }
 

@@ -12,7 +12,7 @@ class Meal extends HTMLElement{
                 <p class="description">${this._meal.strCategoryDescription}</p>
             </div>
             <div class="col-6 thumbs">
-                <img src="${this._meal.strCategoryThumb}">
+                <img src="${this._meal.strCategoryThumb}" alt="${this._meal.strCategory}">
             </div>
         `
     }
